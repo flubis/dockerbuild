@@ -18,7 +18,7 @@
         state: absent
     - name: delete image
       docker_image:
-        name: container_by_jenkins
+        name: flubis/apache-jenkins:latest
         state: absent
     - name: pull image 
       docker_image:
